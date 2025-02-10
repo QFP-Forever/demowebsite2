@@ -1,0 +1,266 @@
+{
+  "common": {
+    "loading": "Caricamento...",
+    "learnMore": "Scopri di più"
+  },
+  "chat": {
+    "title": "Assistente Finanziario",
+    "greeting": "Ciao! Come posso aiutarti con le tue finanze?",
+    "userQuery": "Vorrei ottimizzare le mie tasse",
+    "response1": "Posso aiutarti a ridurre le tue tasse con i nostri strumenti intelligenti",
+    "userFollow": "Quali deduzioni sono possibili?",
+    "response2": "Analizziamo la tua situazione per massimizzare le tue deduzioni legali"
+  },
+  "feedback": {
+    "acknowledgment": {
+      "tax": "Grazie per il tuo feedback sul nostro servizio di dichiarazione dei redditi!",
+      "budget": "Grazie per il tuo feedback sui nostri strumenti di gestione del budget!",
+      "wealth": "Grazie per il tuo feedback sui nostri servizi di gestione patrimoniale!"
+    },
+    "close": "Chiudi",
+    "question": "Cosa ne pensi di questa funzionalità?",
+    "description": "Il tuo feedback ci aiuta a migliorare il nostro servizio",
+    "ratings": {
+      "love": "Lo adoro",
+      "loveDesc": "È esattamente ciò di cui ho bisogno",
+      "like": "Mi piace",
+      "likeDesc": "È interessante",
+      "neutral": "Neutrale",
+      "neutralDesc": "Non sono sicuro/a",
+      "dislike": "Non mi piace",
+      "dislikeDesc": "Non fa per me"
+    },
+    "thankYou": "Grazie per il tuo feedback!",
+    "error": "Si è verificato un errore. Riprova.",
+    "pages": {
+      "taxDeclaration": {
+        "question": "Cosa ne pensi del nostro servizio di dichiarazione dei redditi?",
+        "description": "Il tuo feedback ci aiuta a migliorare il nostro servizio",
+        "ratings": {
+          "positive": "È esattamente ciò di cui ho bisogno",
+          "neutral": "Ho bisogno di maggiori informazioni",
+          "negative": "Non è quello che sto cercando"
+        },
+        "thankYou": "Grazie per il tuo feedback sul nostro servizio di dichiarazione dei redditi!"
+      },
+      "budget": {
+        "question": "Cosa ne pensi dei nostri strumenti di gestione del budget?",
+        "description": "Il tuo feedback ci aiuta a migliorare le nostre funzionalità",
+        "ratings": {
+          "positive": "Questi strumenti soddisfano perfettamente le mie esigenze",
+          "neutral": "Vorrei saperne di più",
+          "negative": "Questi strumenti non sono adatti a me"
+        },
+        "thankYou": "Grazie per il tuo feedback sui nostri strumenti di gestione del budget!"
+      },
+      "wealth": {
+        "question": "Cosa ne pensi dei nostri servizi di gestione patrimoniale?",
+        "description": "Il tuo feedback ci aiuta a migliorare la nostra offerta",
+        "ratings": {
+          "positive": "È esattamente il tipo di servizio che cerco",
+          "neutral": "Ho bisogno di maggiori dettagli",
+          "negative": "Questo servizio non soddisfa le mie aspettative"
+        },
+        "thankYou": "Grazie per il tuo feedback sui nostri servizi di gestione patrimoniale!"
+      }
+    },
+    "signup": {
+      "title": "Vorresti ricevere notizie esclusive e aggiornamenti sul nostro progetto innovativo?",
+      "newsletter": {
+        "title": "Newsletter",
+        "option1": "Sì, voglio rimanere informato/a e ricevere aggiornamenti!",
+        "option2": "No, non al momento"
+      },
+      "interview": {
+        "title": "Saresti disposto/a a partecipare a un'intervista e contribuire a plasmare il futuro del nostro progetto?",
+        "option1": "Sì, sono interessato/a!",
+        "option2": "Forse, vorrei saperne di più",
+        "option3": "No, non al momento"
+      },
+      "email": {
+        "label": "Lasciaci la tua email :)",
+        "placeholder": "Il tuo indirizzo email"
+      },
+      "submit": "Conferma",
+      "update": "Aggiorna",
+      "close": "Chiudi",
+      "error": "Si è verificato un errore. Riprova.",
+      "thankYou": "Grazie per la tua partecipazione!",
+      "errors": {
+        "required": "Questo campo è obbligatorio",
+        "invalidEmail": "Inserisci un indirizzo email valido"
+      }
+    }
+  },
+  "header": {
+    "cta": "Aiutaci a costruire questa soluzione e condividi il tuo feedback",
+    "nav": {
+      "offer": "La nostra offerta",
+      "services": "Servizi",
+      "howItWorks": "Come funziona",
+      "pricing": "Piani tariffari"
+    },
+    "signup": "Registrati",
+    "signup_url": "https://tally.so/r/31Gv8Q"
+  },
+  "services": {
+    "tax_declaration": "Dichiarazione fiscale",
+    "budget": "Budget",
+    "investment": "Investimento"
+  },
+  "hero": {
+    "title1": "Prendi il controllo delle tue finanze!",
+    "title2": "Una piattaforma intuitiva per la dichiarazione fiscale, la gestione del budget e la crescita del patrimonio.",
+    "cta": "Partecipa al nostro sondaggio",
+    "cta_url": "https://tally.so/r/w7aYo0",
+    "image_alt": "Pianificazione finanziaria"
+  },
+  "offer": {
+    "title": "Una soluzione completa per gestire le tue finanze.",
+    "block1": {
+      "title1": "Dichiarazione fiscale semplificata",
+      "title2": "Completa la tua dichiarazione in modo rapido e senza stress con il nostro assistente intelligente."
+    },
+    "block2": {
+      "title1": "Gestione intelligente del budget",
+      "title2": "Tieni traccia delle tue spese, stabilisci obiettivi e ricevi raccomandazioni personalizzate."
+    },
+    "block3": {
+      "title1": "Crescita del patrimonio",
+      "title2": "Ottimizza i tuoi risparmi e investimenti con i nostri consigli esperti."
+    }
+  },
+  "howItWorks": {
+    "title": "Una soluzione semplice in 3 passaggi.",
+    "step1": {
+      "heading": "Guida per la tua dichiarazione fiscale",
+      "description": "Carica i tuoi documenti e rispondi a poche domande, tutto qui!"
+    },
+    "step2": {
+      "heading": "Definisci i tuoi progetti, ti aiutiamo a realizzarli",
+      "description": "Accedi a una panoramica consolidata, a scenari affidabili di risparmio e investimento e a raccomandazioni personalizzate. Sai esattamente cosa fare!"
+    },
+    "step3": {
+      "heading": "Rilassati",
+      "description": "Gestisci le tue finanze senza alcuno sforzo aggiuntivo!"
+    },
+    "cta": "Rispondi al nostro sondaggio sul prodotto",
+    "cta_url": "https://tally.so/r/w7aYo0"
+  },
+  "pricing": {
+    "title1": "Una soluzione adatta alle tue esigenze e al tuo budget.",
+    "plans": {
+      "tax": {
+        "name": "La Dichiarazione Fiscale",
+        "description": "Un prezzo competitivo per aiutarti a completare la tua dichiarazione fiscale in modo rapido e senza stress.",
+        "features": [
+          "Dichiarazione fiscale guidata",
+          "Controllo automatico",
+          "Supporto via chat"
+        ]
+      },
+      "discovery": {
+        "name": "La Scoperta",
+        "description": "Accesso alle funzionalità essenziali di gestione del budget e crescita patrimoniale per scoprire tutto il potenziale della nostra piattaforma.",
+        "features": [
+          "Monitoraggio del budget",
+          "Pianificazione finanziaria",
+          "Raccomandazioni di base"
+        ]
+      },
+      "complete": {
+        "name": "La Completa",
+        "description": "Include la dichiarazione fiscale e tutte le funzionalità avanzate per realizzare i tuoi progetti e far crescere il tuo patrimonio, tutto a un prezzo imbattibile.",
+        "features": [
+          "Tutte le funzionalità del piano Scoperta",
+          "Dichiarazione fiscale inclusa",
+          "Raccomandazioni avanzate",
+          "Supporto prioritario"
+        ]
+      }
+    },
+    "vote": "Vota per questo piano",
+    "updateVote": "Cambia il tuo voto",
+    "thankYou": "Grazie per aver votato!",
+    "error": "Si è verificato un errore. Riprova."
+  },
+  "footer": {
+    "newsletter": {
+      "title": "Rimani aggiornato",
+      "placeholder": "Il tuo indirizzo email",
+      "submit": "Iscriviti",
+      "success": "Grazie per esserti iscritto!",
+      "error": "Si è verificato un errore. Riprova."
+    },
+    "rights": "Tutti i diritti riservati."
+  },
+  "taxDeclaration": {
+    "title1": "Semplifica la tua dichiarazione fiscale",
+    "title2": "Il nostro assistente intelligente ti guida passo dopo passo per completare la tua dichiarazione rapidamente e senza stress.",
+    "features": {
+      "simplified": {
+        "title": "Una dichiarazione fiscale semplificata",
+        "description": "La dichiarazione fiscale è un compito complesso e stressante. Con BudgetEase ti guidiamo passo dopo passo per completarla rapidamente, facilmente e senza errori."
+      },
+      "compliance": {
+        "title": "Conformità garantita",
+        "description": "La nostra piattaforma rispetta rigorosamente le normative fiscali cantonali e federali, permettendoti di compilare la tua dichiarazione con fiducia, senza rischi di penalità o errori costosi."
+      },
+      "deductions": {
+        "title": "Ottimizzazione delle detrazioni fiscali",
+        "description": "Con i nostri strumenti intelligenti, puoi essere sicuro di non dimenticare alcuna detrazione fiscale a cui hai diritto."
+      },
+      "pricing": {
+        "title": "Prezzo imbattibile",
+        "description": "Tutto questo a un prezzo molto più conveniente rispetto alle soluzioni tradizionali come fiduciari o esperti contabili."
+      }
+    },
+    "cta": "Inizia la mia dichiarazione"
+  },
+  "budget": {
+    "title1": "Gestisci il tuo budget in modo intelligente",
+    "title2": "Definisci i tuoi obiettivi, pianifica la loro realizzazione e monitora il tuo budget con strumenti intelligenti e intuitivi.",
+    "features": {
+      "projects": {
+        "title": "Definisci i tuoi obiettivi",
+        "description": "Che si tratti di acquistare una casa, viaggiare o prepararsi alla pensione, usa i nostri strumenti di simulazione per fissare obiettivi chiari e raggiungibili."
+      },
+      "planning": {
+        "title": "Pianifica la loro realizzazione",
+        "description": "Sapere quanto risparmiare, con quale frequenza e per quanto tempo diventa semplice e chiaro. I nostri strumenti trasformano i tuoi obiettivi in passi concreti."
+      },
+      "tracking": {
+        "title": "Monitora il tuo budget",
+        "description": "Tieni sotto controllo le tue entrate e spese per avere il pieno controllo della tua situazione finanziaria. Identifica rapidamente se stai rispettando i tuoi obiettivi e, se necessario, apporta modifiche."
+      },
+      "ai": {
+        "title": "Supporto personalizzato",
+        "description": "Grazie ai nostri strumenti intelligenti, ricevi raccomandazioni su misura per distribuire le tue spese, risparmiare in modo efficace e raggiungere i tuoi obiettivi più velocemente."
+      }
+    },
+    "cta": "Gestisci il mio budget"
+  },
+  "wealth": {
+    "title1": "Ottimizza i tuoi investimenti e costruisci un patrimonio solido",
+    "title2": "Ottimizza i tuoi risparmi e investimenti con i consigli esperti e gli strumenti di simulazione.",
+    "features": {
+      "opportunities": {
+        "title": "Individua le tue opportunità di investimento",
+        "description": "Ti aiutiamo a scoprire le migliori opzioni di investimento in base ai tuoi obiettivi e al tuo profilo: azioni, ETF, pilastri 3a/3b, immobiliare... Saprai finalmente da dove iniziare."
+      },
+      "planning": {
+        "title": "Pianifica i tuoi investimenti in modo metodico",
+        "description": "Stabilisci obiettivi di investimento chiari allineati ai tuoi progetti finanziari e beneficia di simulazioni personalizzate per sapere quanto investire, con quale frequenza e quali rendimenti aspettarti."
+      },
+      "returns": {
+        "title": "Ottimizza i tuoi rendimenti",
+        "description": "Grazie a raccomandazioni su misura, basate su algoritmi intelligenti e un'analisi delle tue preferenze, prendi decisioni informate in linea con la tua tolleranza al rischio e il tuo orizzonte di investimento."
+      },
+      "guidance": {
+        "title": "Supporto concreto per agire",
+        "description": "Non fermarti alla fase di pianificazione. Ti guidiamo nell'attuazione delle tue decisioni: dall'apertura del conto alla gestione degli investimenti, tutto è pensato per semplificarti la vita."
+      }
+    },
+    "cta": "Ottimizza il mio patrimonio"
+  }
+}

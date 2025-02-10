@@ -1,0 +1,266 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "learnMore": "Learn more"
+  },
+  "chat": {
+    "title": "Financial Assistant",
+    "greeting": "Hello! How can I help you with your finances?",
+    "userQuery": "I'd like to optimize my taxes",
+    "response1": "I can help you reduce your taxes with our smart tools",
+    "userFollow": "What deductions are possible?",
+    "response2": "We analyze your situation to maximize your legal deductions"
+  },
+  "feedback": {
+    "acknowledgment": {
+      "tax": "Thank you for your feedback on our tax declaration service!",
+      "budget": "Thank you for your feedback on our budget management tools!",
+      "wealth": "Thank you for your feedback on our wealth management services!"
+    },
+    "close": "Close",
+    "question": "What do you think about this feature?",
+    "description": "Your feedback helps us improve our service",
+    "ratings": {
+      "love": "I love it",
+      "loveDesc": "This is exactly what I need",
+      "like": "I like it",
+      "likeDesc": "It's interesting",
+      "neutral": "Neutral",
+      "neutralDesc": "I'm not sure",
+      "dislike": "I don't like it",
+      "dislikeDesc": "This isn't for me"
+    },
+    "thankYou": "Thank you for your feedback!",
+    "error": "An error occurred. Please try again.",
+    "pages": {
+      "taxDeclaration": {
+        "question": "What do you think about our tax declaration service?",
+        "description": "Your feedback helps us improve our service",
+        "ratings": {
+          "positive": "This is exactly what I need",
+          "neutral": "I need more information",
+          "negative": "This isn't what I'm looking for"
+        },
+        "thankYou": "Thank you for your feedback on our tax declaration service!"
+      },
+      "budget": {
+        "question": "What do you think about our budget management tools?",
+        "description": "Your feedback helps us improve our features",
+        "ratings": {
+          "positive": "These tools perfectly meet my needs",
+          "neutral": "I'd like to know more",
+          "negative": "These tools aren't suitable for me"
+        },
+        "thankYou": "Thank you for your feedback on our budget management tools!"
+      },
+      "wealth": {
+        "question": "What do you think about our wealth management services?",
+        "description": "Your feedback helps us improve our offering",
+        "ratings": {
+          "positive": "This is exactly the type of service I'm looking for",
+          "neutral": "I need more details",
+          "negative": "This service doesn't meet my expectations"
+        },
+        "thankYou": "Thank you for your feedback on our wealth management services!"
+      }
+    },
+    "signup": {
+      "title": "Would you like to receive exclusive news and updates about our innovative project?",
+      "newsletter": {
+        "title": "Newsletter",
+        "option1": "Yes, I want to stay informed and receive updates!",
+        "option2": "No, not at the moment"
+      },
+      "interview": {
+        "title": "Would you be willing to participate in an interview and help shape the future of our project?",
+        "option1": "Yes, I'm interested!",
+        "option2": "Maybe, I'd like to know more",
+        "option3": "No, not at the moment"
+      },
+      "email": {
+        "label": "Leave us your email :)",
+        "placeholder": "Your email address"
+      },
+      "submit": "Confirm",
+      "update": "Update",
+      "close": "Close",
+      "error": "An error occurred. Please try again.",
+      "thankYou": "Thank you for your participation!",
+      "errors": {
+        "required": "This field is required",
+        "invalidEmail": "Please enter a valid email address"
+      }
+    }
+  },
+  "header": {
+    "cta": "Help us build this solution and share your feedback",
+    "nav": {
+      "offer": "Our Offer",
+      "services": "Services",
+      "howItWorks": "How It Works",
+      "pricing": "Plans"
+    },
+    "signup": "Sign up",
+    "signup_url": "https://tally.so/r/31Gv8Q"
+  },
+  "services": {
+    "tax_declaration": "Tax Declaration",
+    "budget": "Budget",
+    "investment": "Investment"
+  },
+  "hero": {
+    "title1": "Take control of your finances!",
+    "title2": "An intuitive platform for tax declaration, budget management, and growing your wealth.",
+    "cta": "Participate in our survey",
+    "cta_url": "https://tally.so/r/wzGgR0",
+    "image_alt": "Financial planning"
+  },
+  "offer": {
+    "title": "A complete solution to manage your finances.",
+    "block1": {
+      "title1": "Simplified Tax Declaration",
+      "title2": "Complete your tax declaration quickly and stress-free with our smart assistant."
+    },
+    "block2": {
+      "title1": "Smart Budget Management",
+      "title2": "Track your spending, set goals, and receive personalized recommendations."
+    },
+    "block3": {
+      "title1": "Wealth Development",
+      "title2": "Optimize your savings and investments with expert advice."
+    }
+  },
+  "howItWorks": {
+    "title": "A simple solution in 3 steps.",
+    "step1": {
+      "heading": "Get guided for your tax declaration",
+      "description": "Upload your documents and answer a few questions, that's it!"
+    },
+    "step2": {
+      "heading": "Define your goals, we help you achieve them",
+      "description": "Access a consolidated view, reliable savings and investment scenarios, and personalized recommendations. You know exactly what to do!"
+    },
+    "step3": {
+      "heading": "Relax",
+      "description": "You control your finances effortlessly!"
+    },
+    "cta": "Answer our product survey",
+    "cta_url": "https://tally.so/r/wolegx"
+  },
+  "pricing": {
+    "title1": "A solution tailored to your needs and budget.",
+    "plans": {
+      "tax": {
+        "name": "Tax Declaration",
+        "description": "A competitive rate to help you complete your tax declaration quickly and stress-free.",
+        "features": [
+          "Guided tax declaration",
+          "Automatic checks",
+          "Chat support"
+        ]
+      },
+      "discovery": {
+        "name": "Discovery",
+        "description": "Access essential features for budget management and wealth development to explore our platform's full potential.",
+        "features": [
+          "Budget tracking",
+          "Financial planning",
+          "Basic recommendations"
+        ]
+      },
+      "complete": {
+        "name": "Complete",
+        "description": "Includes tax declaration and all advanced features to achieve your projects and grow your wealth, all at an unbeatable price.",
+        "features": [
+          "All Discovery plan features",
+          "Tax declaration included",
+          "Advanced recommendations",
+          "Priority support"
+        ]
+      }
+    },
+    "vote": "Vote for this plan",
+    "updateVote": "Change your vote",
+    "thankYou": "Thank you for voting!",
+    "error": "An error occurred. Please try again."
+  },
+  "footer": {
+    "newsletter": {
+      "title": "Stay Updated",
+      "placeholder": "Your email address",
+      "submit": "Sign up",
+      "success": "Thank you for signing up!",
+      "error": "An error occurred. Please try again."
+    },
+    "rights": "All rights reserved."
+  },
+  "taxDeclaration": {
+    "title1": "Simplify Your Tax Declaration",
+    "title2": "Our smart assistant guides you step-by-step to complete your declaration quickly and stress-free.",
+    "features": {
+      "simplified": {
+        "title": "A Simplified Tax Declaration",
+        "description": "Tax declaration is a complex and stressful task. With BudgetEase, we guide you step-by-step to complete your declaration quickly, easily, and error-free."
+      },
+      "compliance": {
+        "title": "Guaranteed Compliance",
+        "description": "Our platform strictly adheres to cantonal and federal tax regulations, allowing you to complete your declaration confidently, free from penalties or costly errors."
+      },
+      "deductions": {
+        "title": "Optimized Tax Deductions",
+        "description": "With our smart tools, you're assured of capturing all the tax deductions you're entitled to."
+      },
+      "pricing": {
+        "title": "Unbeatable Pricing",
+        "description": "All this at a price far more affordable than traditional solutions like fiduciaries or accountants."
+      }
+    },
+    "cta": "Start My Declaration"
+  },
+  "budget": {
+    "title1": "Manage Your Budget Smartly",
+    "title2": "Define your goals, plan their achievement, and track your budget with smart, intuitive tools.",
+    "features": {
+      "projects": {
+        "title": "Define Your Goals",
+        "description": "Whether it's buying a home, traveling, or preparing for retirement, use our simulation tools to set clear and achievable objectives."
+      },
+      "planning": {
+        "title": "Plan Their Achievement",
+        "description": "Knowing how much to save, how often, and for how long becomes simple and clear. Our tools turn your goals into concrete steps."
+      },
+      "tracking": {
+        "title": "Track Your Budget",
+        "description": "Keep an eye on your income and expenses for complete control of your financial situation. Quickly identify if you're meeting your goals and adjust as needed."
+      },
+      "ai": {
+        "title": "Personalized Support",
+        "description": "With our smart tools, receive tailored recommendations to allocate your expenses, save effectively, and achieve your goals faster."
+      }
+    },
+    "cta": "Manage My Budget"
+  },
+  "wealth": {
+    "title1": "Optimize Your Investments and Build a Solid Wealth",
+    "title2": "Optimize your savings and investments with expert advice and simulation tools.",
+    "features": {
+      "opportunities": {
+        "title": "Identify Your Investment Opportunities",
+        "description": "We help you discover the best options to invest according to your goals and profile: stocks, ETFs, pillars 3a/3b, real estate… You finally know where to start."
+      },
+      "planning": {
+        "title": "Plan Your Investments Methodically",
+        "description": "Set clear investment goals aligned with your financial projects, and benefit from personalized simulations to know how much to invest, how often, and the returns you can expect."
+      },
+      "returns": {
+        "title": "Optimize Your Returns",
+        "description": "With tailored recommendations based on intelligent algorithms and an analysis of your preferences, you make informed decisions aligned with your risk tolerance and investment horizon."
+      },
+      "guidance": {
+        "title": "Concrete Support to Take Action",
+        "description": "Don't stop at planning. We guide you through executing your decisions: from opening an account to managing your investments, everything is designed to simplify your life."
+      }
+    },
+    "cta": "Optimize My Wealth"
+  }
+}
