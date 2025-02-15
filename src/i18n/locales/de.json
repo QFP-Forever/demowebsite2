@@ -21,14 +21,14 @@
     "question": "Was halten Sie von dieser Funktion?",
     "description": "Ihr Feedback hilft uns, unseren Service zu verbessern",
     "ratings": {
-      "love": "Ich liebe es",
-      "loveDesc": "Das ist genau das, was ich brauche",
-      "like": "Gefällt mir",
-      "likeDesc": "Das ist interessant",
-      "neutral": "Neutral",
-      "neutralDesc": "Ich bin mir nicht sicher",
-      "dislike": "Gefällt mir nicht",
-      "dislikeDesc": "Das ist nichts für mich"
+  "love": "Ich liebe es",
+  "loveDesc": "Genau das, was ich brauche",
+  "like": "Ich mag es",
+  "likeDesc": "Es ist interessant",
+  "meh": "Geht so",
+  "mehDesc": "Nicht besonders gut",
+  "dislike": "Gefällt mir nicht",
+  "dislikeDesc": "Das ist nichts für mich"
     },
     "thankYou": "Danke für Ihr Feedback!",
     "error": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es erneut.",
@@ -37,9 +37,10 @@
         "question": "Was halten Sie von unserem Steuererklärungsservice?",
         "description": "Ihr Feedback hilft uns, unseren Service zu verbessern",
         "ratings": {
-          "positive": "Das ist genau das, was ich brauche",
-          "neutral": "Ich benötige mehr Informationen",
-          "negative": "Das ist nicht das, wonach ich suche"
+"love": "Das ist genau das, was ich brauche!",
+"like": "Ich würde gerne mehr darüber erfahren...",
+"neutral": "Ich bin nicht interessiert",
+"dislike": "Dieser Service entspricht nicht meinen Erwartungen"
         },
         "thankYou": "Vielen Dank für Ihr Feedback zu unserem Steuererklärungsservice!"
       },
@@ -47,9 +48,10 @@
         "question": "Was halten Sie von unseren Budgetmanagement-Tools?",
         "description": "Ihr Feedback hilft uns, unsere Funktionen zu verbessern",
         "ratings": {
-          "positive": "Diese Tools erfüllen perfekt meine Bedürfnisse",
-          "neutral": "Ich möchte gerne mehr erfahren",
-          "negative": "Diese Tools sind nicht geeignet für mich"
+"love": "Das ist genau das, was ich brauche!",
+"like": "Ich würde gerne mehr darüber erfahren...",
+"neutral": "Ich bin nicht interessiert",
+"dislike": "Dieser Service entspricht nicht meinen Erwartungen"
         },
         "thankYou": "Vielen Dank für Ihr Feedback zu unseren Budgetmanagement-Tools!"
       },
@@ -57,9 +59,10 @@
         "question": "Was halten Sie von unseren Vermögensverwaltungsdiensten?",
         "description": "Ihr Feedback hilft uns, unser Angebot zu verbessern",
         "ratings": {
-          "positive": "Das ist genau die Art von Service, die ich suche",
-          "neutral": "Ich benötige mehr Details",
-          "negative": "Dieser Service entspricht nicht meinen Erwartungen"
+"love": "Das ist genau das, was ich brauche!",
+"like": "Ich würde gerne mehr darüber erfahren...",
+"neutral": "Ich bin nicht interessiert",
+"dislike": "Dieser Service entspricht nicht meinen Erwartungen"
         },
         "thankYou": "Vielen Dank für Ihr Feedback zu unseren Vermögensverwaltungsdiensten!"
       }
@@ -112,7 +115,7 @@
     "title1": "Übernehmen Sie die Kontrolle über Ihre Finanzen!",
     "title2": "Eine intuitive Plattform für Steuererklärung, Budgetverwaltung und Vermögensaufbau.",
     "cta": "Nehmen Sie an unserer Umfrage teil",
-    "cta_url": "https://tally.so/r/m6W9kJ",
+    "cta_url": "https://tally.so/r/nGQK8p",
     "image_alt": "Finanzplanung"
   },
   "offer": {
@@ -145,7 +148,7 @@
       "description": "Sie behalten Ihre Finanzen mühelos im Griff!"
     },
     "cta": "An unserer Produktumfrage teilnehmen",
-    "cta_url": "https://tally.so/r/wolegx"
+    "cta_url": "https://tally.so/r/nGQK8p"
   },
   "pricing": {
     "title1": "Eine Lösung, die zu Ihren Bedürfnissen und Ihrem Budget passt.",

@@ -20,15 +20,15 @@
     "close": "Fermer",
     "question": "Que pensez-vous de cette fonctionnalité ?",
     "description": "Votre avis nous aide à améliorer notre service",
-    "ratings": {
-      "love": "J'adore",
-      "loveDesc": "C'est exactement ce dont j'ai besoin",
-      "like": "J'aime bien",
-      "likeDesc": "C'est intéressant",
-      "neutral": "Neutre",
-      "neutralDesc": "Je ne suis pas sûr(e)",
-      "dislike": "Je n'aime pas",
-      "dislikeDesc": "Ce n'est pas pour moi"
+"ratings": {
+  "love": "J'adore",
+  "loveDesc": "C'est exactement ce dont j'ai besoin",
+  "like": "J'aime bien",
+  "likeDesc": "C'est intéressant",
+  "neutral": "Bof",
+  "neutralDesc": "Ce n'est pas terrible",
+  "dislike": "Je n'aime pas",
+  "dislikeDesc": "Ce n'est pas pour moi"
     },
     "thankYou": "Merci pour votre retour !",
     "error": "Une erreur est survenue. Veuillez réessayer.",
@@ -37,9 +37,10 @@
         "question": "Que pensez-vous de notre service de déclaration fiscale ?",
         "description": "Votre avis nous aide à améliorer notre service",
         "ratings": {
-          "positive": "C'est exactement ce dont j'ai besoin",
-          "neutral": "J'ai besoin de plus d'informations",
-          "negative": "Ce n'est pas ce que je recherche"
+          "love": "C'est exactement ce dont j'ai besoin !",
+          "like": "J'aimerais en savoir plus...",
+          "neutral": "Je ne suis pas intéressé",
+          "dislike": "Ce service ne correspond pas à mes attentes"          
         },
         "thankYou": "Merci pour votre retour sur notre service de déclaration fiscale !"
       },
@@ -47,9 +48,10 @@
         "question": "Que pensez-vous de nos outils de gestion budgétaire ?",
         "description": "Votre avis nous aide à améliorer nos fonctionnalités",
         "ratings": {
-          "positive": "Ces outils répondent parfaitement à mes besoins",
-          "neutral": "J'aimerais en savoir plus",
-          "negative": "Ces outils ne me conviennent pas"
+          "love": "C'est exactement ce dont j'ai besoin !",
+          "like": "J'aimerais en savoir plus...",
+          "neutral": "Je ne suis pas intéressé",
+          "dislike": "Ce service ne correspond pas à mes attentes"
         },
         "thankYou": "Merci pour votre retour sur nos outils de gestion budgétaire !"
       },
@@ -57,9 +59,10 @@
         "question": "Que pensez-vous de nos services de gestion de patrimoine ?",
         "description": "Votre avis nous aide à améliorer notre offre",
         "ratings": {
-          "positive": "C'est exactement le type de service que je cherche",
-          "neutral": "J'ai besoin de plus de détails",
-          "negative": "Ce service ne correspond pas à mes attentes"
+          "love": "C'est exactement ce dont j'ai besoin !",
+          "like": "J'aimerais en savoir plus...",
+          "neutral": "Je ne suis pas intéressé",
+          "dislike": "Ce service ne correspond pas à mes attentes"
         },
         "thankYou": "Merci pour votre retour sur nos services de gestion de patrimoine !"
       }
@@ -112,7 +115,7 @@
     "title1": "Prenez le contrôle de vos finances !",
     "title2": "Une plateforme intuitive pour la déclaration fiscale, la gestion budgétaire et le développement patrimonial.",
     "cta": "Participez à notre enquête",
-    "cta_url": "https://tally.so/r/wolegx",
+    "cta_url": "https://tally.so/r/nrkaKX",
     "image_alt": "Planification financière"
   },
   "offer": {
@@ -145,7 +148,7 @@
       "description": "Vous maîtrisez vos finances sans effort !"
     },
     "cta": "Répondre à notre enquête produit",
-    "cta_url": "https://tally.so/r/wolegx"
+    "cta_url": "https://tally.so/r/nrkaKX"
   },
   "footer": {
     "newsletter": {

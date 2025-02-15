@@ -7,7 +7,7 @@ interface SmileyFeedbackProps {
   onSubmit: () => void;
 }
 
-type SmileyRating = '😍' | '🙂' | '😐' | '😕';
+type SmileyRating = '😍' | '🙂' | '🥱' | '☹️';
 
 interface SmileyOption {
   value: SmileyRating;
@@ -23,10 +23,10 @@ export const SmileyFeedback: React.FC<SmileyFeedbackProps> = ({ pageId, onSubmit
   const [error, setError] = useState<string | null>(null);
 
   const smileys: SmileyOption[] = [
-    { value: '😍', label: t('feedback.ratings.love'), description: t(`feedback.pages.${pageId}.ratings.positive`) },
-    { value: '🙂', label: t('feedback.ratings.like'), description: t(`feedback.pages.${pageId}.ratings.neutral`) },
-    { value: '😐', label: t('feedback.ratings.neutral'), description: t(`feedback.pages.${pageId}.ratings.neutral`) },
-    { value: '😕', label: t('feedback.ratings.dislike'), description: t(`feedback.pages.${pageId}.ratings.negative`) }
+    { value: '😍', label: t('feedback.ratings.love'), description: t(`feedback.pages.${pageId}.ratings.love`) },
+    { value: '🙂', label: t('feedback.ratings.like'), description: t(`feedback.pages.${pageId}.ratings.like`) },
+    { value: '🥱', label: t('feedback.ratings.neutral'), description: t(`feedback.pages.${pageId}.ratings.neutral`) },
+    { value: '☹️', label: t('feedback.ratings.dislike'), description: t(`feedback.pages.${pageId}.ratings.dislike`) }
   ];
 
   useEffect(() => {
