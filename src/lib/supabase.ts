@@ -110,3 +110,31 @@ window.addEventListener('unload', () => {
   }
   connectionListeners.clear();
 });
+
+// Add after your supabase client initialization
+supabase.auth.onAuthStateChange((event, session) => {
+  console.log('[Auth Debug] Event:', event);
+  console.log('[Auth Debug] Session:', session);
+});
+
+// Add a test query function
+async function testConnection() {
+  try {
+    const { data, error } = await supabase
+      .from('pricing_votes')
+      .select('count')
+      .limit(1);
+      
+    console.log('[Debug] Test query result:', { data, error });
+    
+    // Also check current session
+    const { data: { session } } = await supabase.auth.getSession();
+    console.log('[Debug] Current session:', session);
+    
+  } catch (e) {
+    console.error('[Debug] Connection test error:', e);
+  }
+}
+
+// Call it
+testConnection();
