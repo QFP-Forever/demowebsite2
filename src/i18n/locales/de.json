@@ -25,8 +25,8 @@
   "loveDesc": "Genau das, was ich brauche",
   "like": "Ich mag es",
   "likeDesc": "Es ist interessant",
-  "meh": "Geht so",
-  "mehDesc": "Nicht besonders gut",
+  "neutral": "Geht so",
+  "neutralDesc": "Nicht besonders gut",
   "dislike": "Gefällt mir nicht",
   "dislikeDesc": "Das ist nichts für mich"
     },
