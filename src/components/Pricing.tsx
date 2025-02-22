@@ -104,52 +104,57 @@ export const Pricing: React.FC = () => {
     };
   }, [browserId, t]);
 
-  const handleVote = async (planId: string) => {
-    setIsSubmitting(true);
-    setError(null);
+const handleVote = async (planId: string) => {
+  setIsSubmitting(true);
+  setError(null);
+
+  try {
+    const fingerprint = await generateBrowserFingerprint();
+    const visitorId = crypto.randomUUID();
+
+    // Map i18n language to allowed values
+    const allowedLanguages = ['fr', 'en', 'de', 'it'];
+    const currentLang = i18n.language.toLowerCase().slice(0, 2); // Handle cases like 'en-US'
+    const language = allowedLanguages.includes(currentLang) ? currentLang : 'en'; // fallback to 'en'
+
+    const { error: upsertError } = await withRetries(async () =>
+      supabase
+        .from('pricing_votes')
+        .upsert(
+          {
+            browser_id: browserId,
+            visitor_id: visitorId,
+            browser_fingerprint: fingerprint,
+            plan_id: planId,
+            language, // Use the mapped language value
+            last_seen_at: new Date().toISOString()
+          },
+          {
+            onConflict: 'browser_id'
+          }
+        )
+    );
+
+    if (upsertError) {
+      throw upsertError;
+    }
+
+    setSelectedPlan(planId);
+    setHasVoted(true);
 
     try {
-      const fingerprint = await generateBrowserFingerprint();
-      const visitorId = crypto.randomUUID();
-
-      const { error: upsertError } = await withRetries(async () =>
-        supabase
-          .from('pricing_votes')
-          .upsert(
-            {
-              browser_id: browserId,
-              visitor_id: visitorId,
-              browser_fingerprint: fingerprint,
-              plan_id: planId,
-              language: i18n.language,
-              last_seen_at: new Date().toISOString()
-            },
-            {
-              onConflict: 'browser_id'
-            }
-          )
-      );
-
-      if (upsertError) {
-        throw upsertError;
-      }
-
-      setSelectedPlan(planId);
-      setHasVoted(true);
-
-      try {
-        window.clarity?.('track', 'PricingVote', { plan: planId });
-      } catch (trackError) {
-        console.error('Error tracking vote:', trackError instanceof Error ? trackError.message : 'Unknown error');
-      }
-    } catch (error) {
-      const errorMessage = error instanceof Error ? error.message : 'Unknown error';
-      console.error('Error submitting vote:', { message: errorMessage });
-      setError(t('pricing.error'));
-    } finally {
-      setIsSubmitting(false);
+      window.clarity?.('track', 'PricingVote', { plan: planId });
+    } catch (trackError) {
+      console.error('Error tracking vote:', trackError instanceof Error ? trackError.message : 'Unknown error');
     }
-  };
+  } catch (error) {
+    const errorMessage = error instanceof Error ? error.message : 'Unknown error';
+    console.error('Error submitting vote:', { message: errorMessage });
+    setError(t('pricing.error'));
+  } finally {
+    setIsSubmitting(false);
+  }
+};
 
   return (
     <section id="pricing" className="py-12 sm:py-20 px-4 bg-white">
